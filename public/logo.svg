@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 520" width="100%" height="100%">
+  <g fill="#000000">
+    <!-- Mortarboard Top Outer Diamond -->
+    <polygon points="250,30 450,140 250,250 50,140" />
+    <!-- Outer White Cutout -->
+    <polygon points="250,58 412,140 250,222 88,140" fill="#ffffff" />
+    
+    <!-- Inner Black Diamond Ring & Geometric Monogram -->
+    <polygon points="250,78 380,140 250,202 120,140" fill="#000000" />
+    <polygon points="250,98 346,140 250,182 154,140" fill="#ffffff" />
+    
+    <!-- Geometric Monogram Core (Stylized S/FV inside Diamond) -->
+    <path d="M195,125 L305,125 L305,142 L225,142 L225,152 L305,152 L305,170 L195,170 Z" fill="#000000" />
+
+    <!-- Cap Base / 3D Pedestal -->
+    <path d="M140,195 L140,255 C140,295 360,295 360,255 L360,195 L315,220 C315,260 185,260 185,220 Z" />
+    <!-- Pedestal Notch Detail -->
+    <rect x="290" y="225" width="22" height="32" rx="2" fill="#000000" />
+
+    <!-- Official Typography FORMA VALE -->
+    <text x="250" y="380" font-family="'Inter', 'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="68" font-weight="800" letter-spacing="12" text-anchor="middle" fill="#000000">FORMA</text>
+    <text x="250" y="460" font-family="'Inter', 'Helvetica Neue', 'Segoe UI', Arial, sans-serif" font-size="68" font-weight="800" letter-spacing="12" text-anchor="middle" fill="#000000">VALE</text>
+  </g>
+</svg>

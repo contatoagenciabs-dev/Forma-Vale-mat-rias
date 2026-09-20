@@ -1,0 +1,6 @@
+{
+  "name": "Forma Vale · Solicitação de materiais",
+  "description": "Central Forma Vale para registro de solicitações de materiais e contratos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

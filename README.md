@@ -1,11 +1,60 @@
-<div align="center">
+# Forma Vale · Solicitação de Materiais e Contratos
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Central de atendimento e solicitações de materiais da **Forma Vale**. Esta aplicação permite o envio de solicitações, geração automática de comprovantes em PDF e gerenciamento seguro dos documentos.
 
-  <h1>Built with AI Studio</h2>
+---
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🚀 Instalação e Execução Local
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### Pré-requisitos
+- **Node.js**: v18+ 
+- **npm** ou **yarn**
 
-</div>
+### Passo a Passo
+
+1. **Instalar dependências**:
+   ```bash
+   npm install
+   ```
+
+2. **Executar em modo de desenvolvimento**:
+   ```bash
+   npm run dev
+   ```
+
+3. **Gerar build de produção**:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 🛠️ Publicação na Vercel
+
+O projeto conta com suporte nativo para funções serverless na Vercel através das rotas `/api/*` e `/subdata-online`.
+
+### 1. Conectar Repositório
+1. Acesse [vercel.com/new](https://vercel.com/new).
+2. Selecione o repositório **`contatoagenciabs-dev/Forma-Vale`** (ou o seu fork/repositório equivalente).
+3. Selecione a branch **`main`**.
+
+### 2. Configurações do Projeto na Vercel
+- **Framework Preset**: `Vite`
+- **Root Directory**: `./`
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+
+---
+
+## 🔐 Estrutura de Arquivos SubData Protegida
+
+- **Salvação Protegida**: Todos os comprovantes e contratos anexados são armazenados com isolamento de segurança na pasta `/subdata/documentos/{protocolo}/`.
+- **Acesso Administrativo**:
+  - Painel Web: `/subdata-online` (Exige a senha de administrador `Liberdade26`)
+  - API Rest: `/api/subdata/listar?senha=Liberdade26`
+
+---
+
+## 📄 Licença
+
+Propriedade exclusiva da **Forma Vale**. Todos os direitos reservados.
